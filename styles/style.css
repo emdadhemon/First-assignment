@@ -4,15 +4,16 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-
 /* header styles */
+
 header{
     width: 100%;
     height: 808px;
     background-image: url("../images/banner/banner3.png");
     text-align: right;
-    /* background-repeat: no-repeat; */
     background-position: center;
+    background-repeat: no-repeat;
+    background-color: #0a56a2;
 
 }
 .header-section{
@@ -63,13 +64,21 @@ section{
 }
 
 .section1-container ul{
-    padding-left: 22px;
     color: #444343;
+    list-style: none;
+    padding-left: 13px;
 }
 
 .section1-container ul li{
-    list-style: square;
     padding-bottom: 10px;
+    
+}
+.section1-container ul li::marker {
+    content: '✓';
+    color:#16D887;
+  }
+.need-gap{
+    padding-left: 10px;
 }
 
 /* my plans styles */
@@ -147,11 +156,11 @@ section{
 }
 .part1-desc{
     color: #FFFFFF;
-    padding-bottom: 26px;
+    padding-bottom: 22px;
 }
 .part1-email{
     color: #FFFFFF;
-    padding-bottom: 18px;
+    padding-bottom: 12px;
 }
 .part1-number{
     color: #FFFFFF;
@@ -160,7 +169,7 @@ section{
 .images{
     width: 47px;
     height: 46px;
-    padding-right: 17px;
+    margin-right: 17px;
 }
 
 .part2-title{
